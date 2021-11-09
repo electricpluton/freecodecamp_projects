@@ -1,3 +1,3 @@
-# webDev
+# freecodecamp.org projects
 
-Repository for small web projects such as portofolio.
+Repository for web projects to validate the freecodecamp web certifiaction.
