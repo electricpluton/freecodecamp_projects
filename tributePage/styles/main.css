@@ -1,5 +1,8 @@
 
 /* stylesheet for woz tribute page */
+h2 {
+  font-size: 30px;
+}
 
 /* header  */
 
@@ -7,7 +10,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
 }
 
 #nav-bar li {
@@ -34,26 +39,88 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-}
-#img-div {
-
+  align-items: center;
 }
 
-#image {
-}
 
 #bio-text {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
+  width: 52%;
+}
 
-
+#bio-text p {
+  align-self: flex-start;
 }
 
 
 
 /* Section 2 : articles about Wozniak */
 
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#tribute-info article {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tribute-info article div {
+  /* width: 50%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#tribute-info article div p {
+  width: 50%;
+  align-self: center;
+}
+
+#tribute-info article.more-text div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+#tribute-info article.more-text div p {
+  width: 35%;
+  border: 2px black solid;
+  border-radius: 25px;
+  padding: 15px;
+  color:black;
+  background-color: #8685EF;
+  opacity: 0.80;
+}
+
+p{
+  line-height: 26px;
+  font-size: 18px;
+}
+
+        /* Award part */
+
+#tribute-info #Award div {
+  width: 90%;
+  display: flex;
+}
+#tribute-info #Award div ul {
+  width: 70%;
+}
+#tribute-info #Award div ul li{
+  list-style: square;
+  line-height: 30px;
+  font-size: 18px;
+  font-style:italic;
+
+}
 
 /* Footer */
 #about-me {
