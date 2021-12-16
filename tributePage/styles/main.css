@@ -1,0 +1,90 @@
+
+/* stylesheet for woz tribute page */
+
+/* header  */
+
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#nav-bar li {
+  list-style-type: none;
+}
+
+#nav-bar li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  margin: 0 10px;
+  border: 1px solid black;
+  background-color: #8685EF;
+  border-radius: 10px;
+  color: black;
+}
+
+#title {
+  text-align: center;
+  font-size: 36px;
+}
+
+/* Section one image and the bio */
+#bio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#img-div {
+
+}
+
+#image {
+}
+
+#bio-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+
+
+/* Section 2 : articles about Wozniak */
+
+
+/* Footer */
+#about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#about-me p {
+  font-size: 20px;
+}
+#tribute-link {
+  text-decoration: none;
+  border: 1px black solid;
+  border-radius: 50%;
+  padding: 10px;
+  color: black;
+  background-color: #8685EF;
+
+}
+
+#about-me ul {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#about-me ul li {
+  list-style-type: none;
+}
+
+#about-me ul li a {
+  text-decoration: none;
+}
